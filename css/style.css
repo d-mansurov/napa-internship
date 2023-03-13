@@ -1,0 +1,134 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #272D4E;
+}
+
+.container{
+    max-width: 1940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+
+.header{
+    padding: 37px 55px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 38px;
+}
+
+.menu-link{
+    color: #272D4E;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.btn-get-started{
+    background-color: #7854F7;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 14px;
+}
+
+.menu-left{
+    margin-left: -500px;
+}
+
+.hero{
+    background-image: url(../images/bigW.svg), linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-top: 270px;
+}
+
+.hero-inner{
+    min-height: 100vh;
+    margin-left: 220px;
+    position: relative;
+}
+
+.hero-title{
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 95px;
+    color: #272D4E;
+    margin: 0 0 29px 0;
+}
+
+.girls-image{
+    position: absolute;
+    width: 284px;
+    height: 197px;
+    right: 498px;
+    top: 0;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.shoes-image{
+    position: absolute;
+    width: 454px;
+    height: 423px;
+    right: 263px;
+    top: 75px;
+    border-radius: 20px;
+    z-index: 1; 
+}
+
+.hero-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #94A2B3;
+    margin: 0;
+    margin-bottom: 57px;
+}
+
+.link-new-store{
+    padding: 26px 63px;
+    background-color: #7854F7;
+    border-radius: 60px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.blue-text{
+    color: #299EF3;
+    font-weight: 500;
+}
+
+.link-extend{
+    margin-left: 13px;
+}
